@@ -1,4 +1,6 @@
-## StoragePlus Beta-1.21.4
+## StoragePlus 1.0.0
+
+Initial release.
 
 ## Minecraft version
 
