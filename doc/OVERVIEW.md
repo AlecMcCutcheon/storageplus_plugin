@@ -16,7 +16,7 @@ StoragePlus is a Spigot/Bukkit plugin for Minecraft 1.21 that adds **floating la
 
 ### 2. Quick deposit
 
-- **Left‑click a button** that is directly beside a **barrel** to trigger a **quick deposit**.
+- **Right‑click a button** (normal push) that is directly beside a **barrel** to trigger a **quick deposit**.
 - The plugin finds all chests and barrels within **20 blocks** of you and tries to **deposit your entire inventory** into them (stacking with existing items first, then filling empty slots).
 - You can also run **`/quickdeposit`** to do the same thing without using a button.
 
@@ -32,7 +32,7 @@ StoragePlus is a Spigot/Bukkit plugin for Minecraft 1.21 that adds **floating la
 |--------|--------|
 | **Label** | A name tag renamed with `[label] <name>`. Left‑click a chest/barrel with it to set the floating label. |
 | **Label tool** | A stick renamed `[label tool] X`, `Y`, or `Z` to move the label position on that axis. |
-| **Quick deposit trigger** | A button (any type) placed **next to** a barrel. Left‑click the button to run quick deposit. |
+| **Quick deposit trigger** | A button (any type) placed **next to** a barrel. Right‑click the button to run quick deposit. |
 | **Storage data** | Each labeled block has a unique ID (GUID), name, block location, and armor stand location, saved in `plugins/StoragePlus/storage_data.yml`. |
 
 ---

@@ -45,8 +45,10 @@ The block must already have a label. Use different sticks for X, Y, and Z as nee
 ## 4. Quick deposit (button + barrel)
 
 1. Place a **barrel**.
-2. Place a **button** on any face of that barrel (or on a block directly beside the barrel).
-3. **Left‑click the button.**
+2. Place a **button** so it is **directly next to** the barrel:
+   - **On the barrel:** button on any face of the barrel (side, top, etc.), or
+   - **Beside the barrel:** button on another block (e.g. wall) that shares a face with the barrel.
+3. **Right‑click the button** (normal button push).
 
 The plugin looks for all **chests and barrels within 20 blocks** of you and tries to **deposit your whole inventory** into them:
 
@@ -56,12 +58,19 @@ The plugin looks for all **chests and barrels within 20 blocks** of you and trie
 
 You get a green message when the run finishes. You need permission **`quickdeposit.use`** for this to work.
 
+**If it doesn’t trigger:**
+
+- **Right-click the button** — Use the normal “use” / push action (right-click). Left-click won’t trigger it.
+- **Button must touch a barrel** — At least one of the six block faces next to the button must be a barrel. If the button is on the barrel, that counts. If it’s on a block beside the barrel, the barrel must be right next to that block.
+- **Permission** — You need the `quickdeposit.use` permission (ops have it by default).
+- **Try button on a block next to the barrel** — If the button is on the barrel and it still doesn’t work, place the button on a block **beside** the barrel (e.g. a wall block adjacent to the barrel) and right-click that button.
+
 ---
 
 ## 5. Quick deposit (command)
 
 - Run **`/quickdeposit`** (with permission **`quickdeposit.use`**).
-- Same behavior as left‑clicking a quick‑deposit button: deposits from your inventory into all chests and barrels within 20 blocks.
+- Same behavior as right‑clicking a quick‑deposit button: deposits from your inventory into all chests and barrels within 20 blocks.
 
 ---
 
@@ -84,5 +93,5 @@ Use only when you understand the impact. After running it, labeled chests/barrel
 | Remove label | Crouch + left‑click with name tag `[label] <exact same name>` |
 | Open storage | Right‑click the floating label text |
 | Move label | Stick `[label tool] X` / `Y` / `Z` → left‑click block (sneak = negative) |
-| Quick deposit | Left‑click button next to barrel, or run `/quickdeposit` |
+| Quick deposit | Right‑click button next to barrel, or run `/quickdeposit` |
 | Remove all armor stands | `/removearmorstands` (admin) |

@@ -58,7 +58,7 @@ No command arguments. Console can run both; only players can benefit from `/quic
 
 ## Quick deposit behavior
 
-- **Trigger:** Left-click on a block that is a **button** (any type) with at least one **barrel** adjacent to it, **or** run `/quickdeposit`.
+- **Trigger:** Right-click (use) on a block that is a **button** (any type) with at least one **barrel** adjacent to it, **or** run `/quickdeposit`.
 - **Scope:** All chests and barrels in a **20-block** cube around the player (search radius 20).
 - **Logic:**
   1. For each item in the player’s inventory, try to add to existing stacks of the same type in nearby storage.

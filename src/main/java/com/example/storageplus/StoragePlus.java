@@ -357,7 +357,7 @@ public class StoragePlus extends JavaPlugin implements Listener {
 			return;
 		}
 		
-		if (isQuickDepositTrigger(block) && event.getAction().name().contains("LEFT_CLICK")) {
+		if (isQuickDepositTrigger(block) && event.getAction().name().contains("RIGHT_CLICK")) {
 			quickDeposit(player);
 		}
 		
