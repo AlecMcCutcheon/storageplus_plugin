@@ -1,0 +1,19 @@
+# Build
+target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Logs / crash
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# OS
+.DS_Store
+Thumbs.db

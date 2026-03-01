@@ -1,0 +1,9 @@
+name: StoragePlus
+version: 1.0
+main: com.example.storageplus.StoragePlus
+api-version: 1.21
+commands:
+  removearmorstands:
+    description: Remove all ArmorStands from the server.
+    usage: /<command>
+    permission: removearmorstands.use
